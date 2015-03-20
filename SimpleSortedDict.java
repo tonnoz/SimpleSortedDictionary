@@ -9,10 +9,10 @@ import java.util.TreeMap;
 public class SimpleSortedDict {
 
 	private final static String separator = "="; // the String which separate
-												 // <key> and the <value>
+						     // <key> and the <value>
 	
 	private final static String pattern = "%s %s %s";   // the %s are in order:
-														// "key","separator","value" for each line
+							    // "key","separator","value" for each line
 
 	private String pathIn;
 	private String pathOut;
@@ -84,12 +84,6 @@ public class SimpleSortedDict {
 			e.printStackTrace();
 		}
 		return map;
-	}
-	
-	
-	
-	public static void main(String[] args){
-		new SimpleDictSort("in.txt", "out.txt").execute();
 	}
 
 }
