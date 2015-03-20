@@ -1,0 +1,14 @@
+hassle = seccatura
+leap = balzo
+mugged = aggredito
+nifty = elegante
+porch = veranda
+soggy = fradicio
+spoilt = viziato
+tedious = noioso
+tinkering = armeggiare
+to gamble = azzardare, giocare d'azzardo
+to pick up the tab = pagare il conto
+to rant = discutere animatamente
+To shell out = sborsare
+trivial = banale, semplice
