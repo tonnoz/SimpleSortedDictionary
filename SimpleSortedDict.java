@@ -17,7 +17,7 @@ public class SimpleSortedDict {
 	private String pathIn;
 	private String pathOut;
 
-	public SimpleDictSort(String pathIn, String pathOut) {
+	public SimpleSortedDict(String pathIn, String pathOut) {
 		this.pathIn = pathIn;
 		this.pathOut = pathOut;
 	}
@@ -43,6 +43,10 @@ public class SimpleSortedDict {
 		return writeOut(treeMapFromFile(pathIn), pathOut, false);
 	}
 
+	public static void main(String[] args){
+		new SimpleSortedDict(args[0], args[1]).execute();
+	}
+	
 	/**
 	 * Write out the TreeMap to a file
 	 * 
