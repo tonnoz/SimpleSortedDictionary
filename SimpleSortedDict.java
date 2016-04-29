@@ -44,7 +44,11 @@ public class SimpleSortedDict {
 	}
 
 	public static void main(String[] args){
-		new SimpleSortedDict(args[0], args[1]).execute();
+		if(args.length > 1){
+			new SimpleSortedDict(args[0], args[1]).execute();
+		}else{
+			System.err.println("USAGE: SimpleSortedDict <UNSORTED_IN> <SORTED_OUT>");
+		}
 	}
 	
 	/**
